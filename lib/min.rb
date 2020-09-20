@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.values.sort do |a,b|
-    a<=>broccoli
+    a<=>b
   groceries.min
 end
