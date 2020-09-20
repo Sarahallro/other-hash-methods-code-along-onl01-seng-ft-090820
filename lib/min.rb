@@ -11,5 +11,6 @@ require 'pry'
 def get_the_min(groceries)
   groceries.values.sort do |a,b|
     a<=>b
-  groceries.min
+    groceries.min
+  end
 end
